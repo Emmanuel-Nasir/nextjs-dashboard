@@ -1,37 +1,47 @@
 {
-  "private": true,
+  "name": "nextjs-dashboard",
+  "version": "1.0.0",
+  "description": "This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.",
+  "main": "postcss.config.js",
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmanuel-Nasir/nextjs-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmanuel-Nasir/nextjs-dashboard/issues"
+  },
+  "homepage": "https://github.com/Emmanuel-Nasir/nextjs-dashboard#readme",
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "@tailwindcss/forms": "^0.5.10",
-    "autoprefixer": "10.4.20",
-    "bcrypt": "^5.1.1",
+    "bcrypt": "^6.0.0",
     "clsx": "^2.1.1",
-    "next": "latest",
-    "next-auth": "5.0.0-beta.25",
-    "postcss": "8.5.1",
-    "postgres": "^3.4.6",
-    "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "3.4.17",
-    "typescript": "5.7.3",
-    "use-debounce": "^10.0.4",
-    "zod": "^3.25.17"
+    "next": "^16.1.6",
+    "next-auth": "5.0.0-beta.30",
+    "postgres": "^3.4.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "use-debounce": "^10.1.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@types/bcrypt": "^5.0.2",
-    "@types/node": "22.10.7",
-    "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "bcrypt",
-      "sharp"
-    ]
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "25.1.0",
+    "@types/react": "19.2.10",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.9.3"
   }
 }
